@@ -1,7 +1,7 @@
 {
   "framework": "fasthttp",
   "tests": [{
-    "mysql": {
+    "default": {
       "setup_file": "setup-mysql",
       "json_url": "/json",
       "db_url": "/db",
@@ -46,7 +46,7 @@
       "display_name": "fasthttp-mysql-prefork",
       "notes": "",
       "versus": "go"
-    }
+    },
     "postgresql": {
       "setup_file": "setup-postgresql",
       "json_url": "/json",
